@@ -8,11 +8,12 @@
  Exemplo:
 
  Formação de uma equipe de FUTSAL:<br><br>
-
+<pre>
  "Everton" joga equivalente ao "Gabriel" então os dois serão nível 1.<br>
  "João   " joga equivalente ao "Joaquim" então os dois serão nível 1.<br>
  "Rafael " joga equivalente ao "Miguel " então os dois serão nível 2.<br> 
  "Marcos " joga equivalente ao "Gustavo" então os dois serão nível 2.<br>
+ </pre>
  <br>
  <br>
  Nível 1 --> Bola cheia  ( jogam melhor )<br>
