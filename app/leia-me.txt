@@ -1,0 +1,26 @@
+
+001. Preciso ter uma lista de jogadores
+002. Na lista deve conter Nome, Nivel, Presente.
+     Nome.: Nome ou apelido do jogador
+     Nivel: Nível será 1 e 2, desta forma será classificado quando o jogador
+     A jogar equivalente ao jogador B ambos deve ser nível 1, quando ele joga um pouquinho melhor.
+
+     Se jogador C for equivalente a jogador D e jogarem um pouco menos que A,B deve ser classificados
+     com nivel = 2.
+
+     Nivel na verdade é o quando um jogador joga equivalente a outro.
+
+     Presente: Se o jogador está presente e vai jogar.
+
+003. Determinar a quantidade de jogadores por time, caso tenha mais jogadores que o necessário
+     jogar os próximos para reserva.
+     Exemplo: Cada time tem 7 jogadores, e no dia tem 20 pessoas.
+     O sistema deve escolher 7 para o Timea 7 para o TimeB
+     e os outros 6 serão jogados para reserva já separados por time.
+
+     Controlar o tempo de troca de jogadores reserva e também quem sai e quem
+     fica, aqueles que não foram substituídos vão saindo até que todos do time
+     tenham feito o revezamento.
+
+004. Controlar ausência e dar prioridade aos jogadores que não faltam.
+005. Confirmação de presença do dia online via aplicativo.
