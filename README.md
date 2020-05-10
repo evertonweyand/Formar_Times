@@ -9,7 +9,7 @@
 
  Formação de uma equipe de FUTSAL:
 
- "Everton" joga equivalente ao "Gabriel" então os dois serão nível 1.
+ "Everton" joga equivalente ao "Gabriel" então os dois serão nível 1.<br>
  "João   " joga equivalente ao "Joaquim" então os dois serão nível 1.
  "Rafael " joga equivalente ao "Miguel " então os dois serão nível 2. 
  "Marcos " joga equivalente ao "Gustavo" então os dois serão nível 2.
