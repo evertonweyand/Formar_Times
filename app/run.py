@@ -1,6 +1,7 @@
 import random
-from app.jogador import Jogador
-from app.time import Time
+from jogador import Jogador
+from equipe import Equipe
+
 
 """
 Cria uma lista vazia para adicionar os jogadores
@@ -20,5 +21,5 @@ for x in range(10):
 
     jogadores.append(Jogador('Jogador {} '.format(x), nivel, 'S'))
 
-times = Time(jogadores)
-times.imprimir_times()
+equipes = Equipe(jogadores)
+equipes.imprimir_times()

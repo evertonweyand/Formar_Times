@@ -1,5 +1,5 @@
 import random
-class Time():
+class Equipe:
     def __init__(self, jogadores):
         self.jogadores = jogadores
         self.lista1 = []
