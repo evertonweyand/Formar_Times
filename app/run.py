@@ -1,5 +1,5 @@
-from jogador import Jogador
-from equipe import Equipe
+from model.jogador import Jogador
+from equipe import Equipe # Separar a equipe o que é model e o que é controller.
 
 
 """
