@@ -15,5 +15,5 @@
  "Marcos " joga equivalente ao "Gustavo" então os dois serão nível 2.<br>
  <br>
  <br>
- Obs: Nível 1 --> Bola cheia  ( jogam melhor )
-      Nível 2 --> Bola murcha ( jogam + ou - )
+ Nível 1 --> Bola cheia  ( jogam melhor )<br>
+ Nível 2 --> Bola murcha ( jogam + ou - )<br>
