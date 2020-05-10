@@ -1,7 +1,6 @@
 import random
 from app.jogador import Jogador
 from app.time import Time
-import emoji
 
 jogadores = []
 """
@@ -19,7 +18,3 @@ for x in range(10):
 
 times = Time(jogadores)
 times.imprimir_times()
-
-
-
-print(emoji.emojize('Python is :soccer:', use_aliases=True))
