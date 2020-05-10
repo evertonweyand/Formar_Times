@@ -1,4 +1,4 @@
- Formar Times
+ <h1>Formar Times</h1>
  
  Este pequeno sistema faz a escolha aleatória dos jogadores
  para iniciar uma partida de futebol. 
@@ -7,12 +7,13 @@
 
  Exemplo:
 
- Formação de uma equipe de FUTSAL:
+ Formação de uma equipe de FUTSAL:<br><br>
 
  "Everton" joga equivalente ao "Gabriel" então os dois serão nível 1.<br>
- "João   " joga equivalente ao "Joaquim" então os dois serão nível 1.
- "Rafael " joga equivalente ao "Miguel " então os dois serão nível 2. 
- "Marcos " joga equivalente ao "Gustavo" então os dois serão nível 2.
-
+ "João   " joga equivalente ao "Joaquim" então os dois serão nível 1.<br>
+ "Rafael " joga equivalente ao "Miguel " então os dois serão nível 2.<br> 
+ "Marcos " joga equivalente ao "Gustavo" então os dois serão nível 2.<br>
+ <br>
+ <br>
  Obs: Nível 1 --> Bola cheia  ( jogam melhor )
       Nível 2 --> Bola murcha ( jogam + ou - )
