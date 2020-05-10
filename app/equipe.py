@@ -1,12 +1,12 @@
 import random
 class Equipe:
     def __init__(self, jogadores):
-        self.jogadores = jogadores
-        self.lista1 = []
-        self.lista2 = []
-        self.lista3 = []
-        self.time_a = []
-        self.time_b = []
+        self.jogadores   = jogadores
+        self.bola_cheia  = []
+        self.bola_murcha = []
+        self.goleiros    = []
+        self.time_a      = []
+        self.time_b      = []
 
 
     def separar_jogadores_por_nivel(self):
@@ -15,11 +15,11 @@ class Equipe:
         """
         for jogador in self.jogadores:
             if jogador.nivel == 1:           # Bola cheia
-                self.lista1.append(jogador)
+                self.bola_cheia.append(jogador)
             elif jogador.nivel == 2:         # Bola murcha
-                self.lista2.append(jogador)
+                self.bola_murcha.append(jogador)
             else:
-                self.lista3.append(jogador)  # Goleiros
+                self.goleiros.append(jogador)  # Goleiros
 
 
     def embaralhar_jogadores(self, lista):
@@ -40,9 +40,9 @@ class Equipe:
         """
         Embaralhar as lista de jogadores e dividir no Time_A e Time_B
         """
-        self.embaralhar_jogadores(self.lista1)
-        self.embaralhar_jogadores(self.lista2)
-        self.embaralhar_jogadores(self.lista3)
+        self.embaralhar_jogadores(self.bola_cheia)
+        self.embaralhar_jogadores(self.bola_murcha)
+        self.embaralhar_jogadores(self.goleiros)
 
 
     def imprimir_lista(self, lista):

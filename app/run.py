@@ -1,4 +1,3 @@
-import random
 from jogador import Jogador
 from equipe import Equipe
 
