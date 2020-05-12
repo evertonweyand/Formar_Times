@@ -1,5 +1,5 @@
 from model.jogador import Jogador
-from equipe import Equipe # Separar a equipe o que é model e o que é controller.
+from controller.equipe import EquipeController
 
 
 """
@@ -20,5 +20,5 @@ for x in range(10):
 
     jogadores.append(Jogador('Jogador {} '.format(x), nivel, 'S'))
 
-equipes = Equipe(jogadores)
+equipes = EquipeController(jogadores)
 equipes.imprimir_times()

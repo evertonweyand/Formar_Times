@@ -1,19 +1,21 @@
 import random
-class Equipe:
+from model.equipe import Equipe
+
+class EquipeController():
     def __init__(self, jogadores):
-        self.jogadores   = jogadores
+        self.equipe_model = Equipe(jogadores)
         self.bola_cheia  = []
         self.bola_murcha = []
         self.goleiros    = []
         self.time_a      = []
-        self.time_b      = []
+        self.time_b      = []        
 
 
     def separar_jogadores_por_nivel(self):
         """
         Separar os jogadores por nível (equivalência)
         """
-        for jogador in self.jogadores:
+        for jogador in self.equipe_model.jogadores:
             if jogador.nivel == 1:           # Bola cheia
                 self.bola_cheia.append(jogador)
             elif jogador.nivel == 2:         # Bola murcha
