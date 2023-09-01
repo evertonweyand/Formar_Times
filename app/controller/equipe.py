@@ -49,7 +49,9 @@ class EquipeController():
 
     def imprimir_lista(self, lista):
         for jogador in lista:
-            print('*   ', jogador.nome, 'Nível: ', jogador.nivel, ' *')
+            qtdeEspacos = 20 - len(jogador.nome)
+            espacos = qtdeEspacos * ' ';
+            print('*   ', jogador.nome, espacos, 'Nível: ', jogador.nivel, ' *')
 
 
     def imprimir_times(self):
@@ -57,13 +59,13 @@ class EquipeController():
         self.formar_times()
 
         # Imprimir TimeA
-        print(28 * '*')
-        print('* Time A:                  *')
+        print(39 * '*')
+        print('* Time A:                             *')
         self.imprimir_lista(self.time_a)
 
-        print(28 * '*')
+        print(39 * '*')
 
         # Imprimir TimeB
-        print('* Time B:                  *')
+        print('* Time B:                             *')
         self.imprimir_lista(self.time_b)
-        print(28 * '*')
+        print(39 * '*')

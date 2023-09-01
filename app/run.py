@@ -1,11 +1,11 @@
 from model.jogador import Jogador
 from controller.equipe import EquipeController
 
-
 """
 Cria uma lista vazia para adicionar os jogadores
 """
 jogadores = []
+
 """
 Criar a lista com todos os jogadores.
 Depois esta lista virá do banco de dados.
